@@ -1,0 +1,22 @@
+meta {
+  name: Create Post
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:5107/post
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: CfDJ8ENIhk0NRBFPobAV6KDMCuxr6EEeg9nTKYvWd-hvmK0aii4Z_i-uk11A9iLH5lOUQwZGTpgWqBOYbixFxrM3Ww5P7EmzqgBQIRwdFVVRAzbHR4clCqM-eFcWLYgNZk9vbJyx3OKBNPhjHTenLEXdsgNQimnkzZfAYPbtWJfpKMTEP9U0WSGyfw-u3QX7_EoEnHQlvrqQJqS8_I_180UGOtG6U7jejtWmWhSeL162G_b5pVCkTlNx31N7-aFyQPio-qSBeSnr9sedhrcFyDw2593zpwaXeZ7v_tQdtHc8wi7KAAD10UxESRGdRolktFbJ-_z1_D8LIfqLUOC8XYfie4yE0s3rXAH23XwsXCIYAH3s8fmGjPlCVYjjnjpOr9jdUHW9dlQEXDssRdXDVBSZ8R7nQDb7ZWRplZAJxGdem-hAymBTJDWb8xmAnupsu4iqn_9B8SzTMKuICpgt0hyda0kcSCg621PKvTvRWswgS_KKlpixSMV2RMFp1Wa9sXb7FRJ0j66qKuGHfn8yfI3gzqWZGLM1IME9pNOx-dXtWm--7qA3B8XnBniDBwjUpqZx7pRXDkk7XATVjrYxsJW_nKcCpqFC3UBrcVG9sik_gYMIU_xLAwwfgirp0ICgr9syoBOBSlTyJR_lXjBw5-pJYJ5062K824HWtABlAFUyYXZI5lhtQQl9dwo0etYkfFJAGw
+}
+
+body:json {
+  {
+    "title": "Frontend",
+    "content": "Jag gillar JavaScript!"
+  }
+}

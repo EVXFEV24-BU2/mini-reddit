@@ -1,0 +1,22 @@
+meta {
+  name: Get Posts Page
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:5107/post/:page
+  body: none
+  auth: none
+}
+
+params:path {
+  page: 1
+}
+
+body:json {
+  {
+    "title": "Frontend",
+    "content": "Jag gillar JavaScript!"
+  }
+}
