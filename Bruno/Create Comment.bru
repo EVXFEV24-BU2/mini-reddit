@@ -1,0 +1,23 @@
+meta {
+  name: Create Comment
+  type: http
+  seq: 7
+}
+
+post {
+  url: http://localhost:5107/comment/:postId
+  body: json
+  auth: bearer
+}
+
+params:path {
+  postId: 621d0f48-a964-4a75-97d5-94319f02d021
+}
+
+auth:bearer {
+  token: CfDJ8ENIhk0NRBFPobAV6KDMCuwrxRTqC-A6vKAIGK2B3MAjWThGgVfvuviK_mEBeVc1QK0a4NdIsMxzpX39bFAWyOfbLXK4TIMzjAwor7QZ_eRbKYz505CeD2bOdtMhXTk3KUpNXCX_lWaDKKtIm-LrkkJkb6zUYI7kb9G_XHB7me1xlOi_ne3ubROPNomcSEAFNA2DkZTGXzi-J9_JBqocqDMOHt5YAhKUJu2hoD9lPYQP9_qjF7Ja-AAEpPrvblYHEFTRnpZ-FDgKAEHBv45uu9BiEYxVHC0EdFTCjUUAusok3vzy-J9VvXmwc4Q3idfQMBPnGDJCCLhfAeV3LXYNuca8pVwb1uQ71hlvJo4bzgR933HEeX8aAmEQu5H0fRECCsAo9PAfXV_lT56P4GU_mwBNNn2l0y6za1iT2cir34DJpED4jiAJRTBsqPB2raruO8jUxSXY_5JJBgqHMXALADlarX5joMDlw22-vlAz8mEwiK5G8YYfYCaZZbHNXH1k1DkydkiVliSGQBjy-xYDjbYPbe6gGW3UF5J3jdKy4uHngXFcy27PXhhDtfkaCZbIT9jCjTLv4u_4lzuaPjvoYjwaNZgwTdoO8-XJdbR9NdDnCZDDD9cwrrUVcIeMQ5UYlA3kdo-9RtdMXYCTXBjDE0nZGgdDG-adyplLFfbtcuFlejSwolhQDL6hRRpzBc-_dA
+}
+
+body:json {
+  "Hej från Superman!"
+}

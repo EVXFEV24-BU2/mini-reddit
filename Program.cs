@@ -14,6 +14,8 @@ public class Program
         builder.Services.AddScoped<IUserRepository, EFUserRepository>();
         builder.Services.AddScoped<IPostService, PostService>();
         builder.Services.AddScoped<IPostRepository, EFPostRepository>();
+        builder.Services.AddScoped<ICommentService, CommentService>();
+        builder.Services.AddScoped<ICommentRepository, EFCommentRepository>();
 
         builder.Services.AddDbContext<AppDbContext>(options =>
             options.UseNpgsql(
@@ -26,6 +28,14 @@ public class Program
         {
             options.AddPolicy(
                 "create_post",
+                policy =>
+                {
+                    policy.RequireAuthenticatedUser();
+                }
+            );
+
+            options.AddPolicy(
+                "create_comment",
                 policy =>
                 {
                     policy.RequireAuthenticatedUser();
