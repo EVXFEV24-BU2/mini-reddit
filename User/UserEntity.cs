@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Identity;
-
+namespace MiniReddit;
 public class UserEntity : IdentityUser
 {
     public ICollection<PostEntity> Posts { get; set; }

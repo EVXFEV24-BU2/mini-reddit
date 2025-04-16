@@ -9,7 +9,7 @@ POST /login
 */
 
 using Microsoft.AspNetCore.Mvc;
-
+namespace MiniReddit;
 [ApiController]
 [Route("/user")]
 public class UserController : ControllerBase

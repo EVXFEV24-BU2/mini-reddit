@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 
+namespace MiniReddit;
+
 public interface IPostRepository
 {
     public Task Add(PostEntity entity);

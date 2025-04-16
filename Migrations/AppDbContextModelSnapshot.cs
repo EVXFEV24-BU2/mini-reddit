@@ -7,9 +7,9 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace mini_reddit.Migrations
+namespace MiniReddit.Migrations
 {
-    [DbContext(typeof(AppDbContext))]
+    [DbContext(typeof(MiniReddit.AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

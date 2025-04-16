@@ -12,6 +12,8 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
+namespace MiniReddit;
+
 [ApiController]
 [Route("/comment")]
 public class CommentController : ControllerBase

@@ -1,5 +1,5 @@
 using System.ComponentModel.DataAnnotations;
-
+namespace MiniReddit;
 public enum Reaction
 {
     Like,

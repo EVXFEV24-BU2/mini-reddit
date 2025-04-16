@@ -1,3 +1,5 @@
+namespace MiniReddit;
+
 public interface ICommentService
 {
     public Task<CommentEntity> CreateComment(Guid postId, string userId, string commentContent);

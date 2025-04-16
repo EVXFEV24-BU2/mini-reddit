@@ -1,3 +1,5 @@
+namespace MiniReddit;
+
 public class PostEntity
 {
     public Guid Id { get; set; }

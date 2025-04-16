@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Identity;
-
+namespace MiniReddit;
 public interface IUserRepository
 {
     public Task Add(UserEntity entity, string password);

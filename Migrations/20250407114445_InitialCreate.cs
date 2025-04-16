@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace mini_reddit.Migrations
+namespace MiniReddit.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

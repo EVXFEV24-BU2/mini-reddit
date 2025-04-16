@@ -1,3 +1,5 @@
+namespace MiniReddit;
+
 public interface ICommentRepository
 {
     public Task Add(CommentEntity entity);

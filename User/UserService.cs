@@ -1,3 +1,4 @@
+namespace MiniReddit;
 public interface IUserService
 {
     public Task<UserEntity> CreateUser(CreateUserRequest request);

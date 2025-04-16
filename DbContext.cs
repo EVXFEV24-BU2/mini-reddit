@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
+namespace MiniReddit;
+
 public class AppDbContext : IdentityDbContext<UserEntity>
 {
     public DbSet<PostEntity> Posts => Set<PostEntity>();

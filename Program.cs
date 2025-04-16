@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-namespace mini_reddit;
+namespace MiniReddit;
 
 public class Program
 {

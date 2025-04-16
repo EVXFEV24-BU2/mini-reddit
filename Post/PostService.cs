@@ -1,3 +1,4 @@
+namespace MiniReddit;
 public interface IPostService
 {
     public Task<PostEntity> CreatePost(CreatePostRequest request, string userId);

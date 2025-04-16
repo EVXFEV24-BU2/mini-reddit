@@ -1,3 +1,5 @@
+namespace MiniReddit;
+
 public class CommentEntity
 {
     public Guid Id { get; set; }
